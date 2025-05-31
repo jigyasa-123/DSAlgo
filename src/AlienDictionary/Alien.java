@@ -1,6 +1,5 @@
-package BallScoreGame;
+package AlienDictionary;
 
-import java.io.*;
 import java.util.*;
 
 // Main class should be named 'Solution' and should not be public.
@@ -71,15 +70,13 @@ class AlienDictionary{
 
 
         }
-        if(ans.size() < indegree.size())
-            return new ArrayList<Character>();
 
 
         return ans;
     }
 
 }
-class Solution {
+class Alien {
     public static void main(String[] args) {
         //List<String> words = Arrays.asList("wrt","wrf","er","ett","rftt");
         List<String> words = Arrays.asList("caa", "aaa", "aab");
